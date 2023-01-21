@@ -62,10 +62,91 @@ export const TableDataCell = styled.td`
   width: 100%;
   background-color: #0b0911;
 `
-interface ColProps {
-  backgroundColor?: string;
-}
 
-export const Col = styled.col<ColProps>`
-  background-color: ${props => props.backgroundColor || "#F1F1F1"};
-`
+
+export const Header = styled.div`
+  display: flex;
+  justify-content: space-between;
+  background-color: #1c162c;
+  border-radius: 8px;
+
+  p {
+    width: 105px;
+    height: 13px;
+
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 13px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 0;
+  }
+`;
+
+export const Side = styled.div`
+  display: flex;
+  justify-content: space-between;
+  background-color: #1c162c;
+  
+  li {
+    width: 74px;
+    height: 13px;
+    
+    margin: 32px 10px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 13px;
+    /* identical to box height */
+
+    text-align: center;
+
+    color: #FFFFFF;
+
+
+    /* Inside auto layout */
+
+    flex: none;
+    order: 0;
+    flex-grow: 1;
+  }
+`;
+
+export const Content = styled.div`
+  display: flex;
+  background-color: #1c162c;
+  border-radius: 8px;
+
+`;
+
+export const Buttons = styled.div`
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  background-color: #0b0911;
+`;
+
+export const Table = styled.div`
+  /* Frame 7898 */
+
+
+  box-sizing: border-box;
+
+  padding: 0px;
+
+
+  background: #1C162C;
+  border-radius: 8px;
+`;
