@@ -1,8 +1,12 @@
 import React from 'react'
 import { ButtonStyle } from './style'
 
-export default function Button() {
+interface ButtonProps {
+    name: string
+}
+
+export default function Button({name}:ButtonProps) {
   return (
-    <ButtonStyle>index</ButtonStyle>
+      <ButtonStyle>{name}</ButtonStyle>
   )
 }

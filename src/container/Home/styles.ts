@@ -37,116 +37,41 @@ export const Description = styled.p`
   flex-grow: 1;
 `;
 
-export const TableRow = styled.tr`
+export const Table = styled.div`
   display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 24px 16px;
-  gap: 32px;
-
-  width: 865px;
-  height: 64px;
-
-  //background: #1c162c;
-
-  /* Inside auto layout */
-
-  flex: none;
-  order: 0;
-  flex-grow: 0;
-`;
-
-export const TableDataCell = styled.td`
-  margin: 0;
-  padding: 0;
-  width: 100%;
-  background-color: #0b0911;
-`
-
-
-export const Header = styled.div`
-  display: flex;
-  justify-content: space-between;
-  background-color: #1c162c;
-  border-radius: 8px;
-
-  p {
-    width: 105px;
-    height: 13px;
-
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 11px;
-    line-height: 13px;
-    /* identical to box height */
-
-    text-align: center;
-
-    color: #FFFFFF;
-
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-  }
 `;
 
 export const Side = styled.div`
-  display: flex;
-  justify-content: space-between;
-  background-color: #1c162c;
-  
-  li {
-    width: 74px;
-    height: 13px;
-    
-    margin: 32px 10px;
+border-radius: 8px;
+box-sizing: border-box;
+
+display: flex;
+flex-direction: column;
+align-items: center;
+background: #1C162C;
+  p {
+    padding: 22px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 400;
     font-size: 11px;
     line-height: 13px;
-    /* identical to box height */
 
     text-align: center;
-
     color: #FFFFFF;
-
-
-    /* Inside auto layout */
-
-    flex: none;
-    order: 0;
-    flex-grow: 1;
   }
 `;
 
-export const Content = styled.div`
-  display: flex;
-  background-color: #1c162c;
-  border-radius: 8px;
-
-`;
-
-export const Buttons = styled.div`
-  display: flex;
-  justify-content: space-between;
+export const Header = styled.div`
   width: 100%;
-  background-color: #0b0911;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  background: #1C162C;
 `;
 
-export const Table = styled.div`
-  /* Frame 7898 */
+export const Buttons = styled.div``;
 
-
-  box-sizing: border-box;
-
-  padding: 0px;
-
-
-  background: #1C162C;
-  border-radius: 8px;
+export const TableContent = styled.div`
+  display: flex;
 `;
