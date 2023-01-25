@@ -1,7 +1,72 @@
 import React from 'react'
+import Button from '../../components/Button'
 import { Container, Title, Description, Header, Side, Content, Buttons, Table } from './styles'
 
 export default function Home() {
+
+    const buttonList = [
+        {
+            name: 'default',
+            types: [
+                { type: 'primaryButton' },
+                { type: 'secondButton' },
+                { type: 'tercButton' },
+                { type: 'cursor' },
+            ]
+        },
+        {
+            name: 'hover',
+            types: [
+                { type: 'primaryButton' },
+                { type: 'secondButton' },
+                { type: 'tercButton' },
+                { type: 'cursor' },
+            ]
+        },
+        {
+            name: 'focus',
+            types: [
+                { type: 'primaryButton' },
+                { type: 'secondButton' },
+                { type: 'tercButton' },
+                { type: 'cursor' },
+            ]
+        },
+        {
+            name: 'disabled',
+            types: [
+                { type: 'primaryButton' },
+                { type: 'secondButton' },
+                { type: 'tercButton' },
+                { type: 'cursor' },
+            ]
+        },
+        {
+            name: 'loading',
+            types: [
+                { type: 'primaryButton' },
+                { type: 'secondButton' },
+                { type: 'tercButton' },
+                { type: 'cursor' },
+            ]
+        },
+        {
+            name: 'movable',
+            types: [
+                { type: 'primaryButton' },
+                { type: 'secondButton' },
+                { type: 'tercButton' },
+                { type: 'cursor' },
+            ]
+        },
+    ]
+
+    const listButtonType = () => {
+        return (
+            <li><Button /></li>
+        )
+    }
+
     return (
         <Container>
             <div>
