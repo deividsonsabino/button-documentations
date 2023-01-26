@@ -75,11 +75,21 @@ export const Titles = styled.div`
   width: 100%;
   display: flex;
   justify-content: space-between;
-  align-items: flex-start;
+  align-items: center;
+  p {
+    text-align: center
+    }
 `;
 
-export const Buttons = styled.div``;
+export const Buttons = styled.div`
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+`;
 
 export const TableContent = styled.div`
+  width: 100%;
   display: flex;
 `;
