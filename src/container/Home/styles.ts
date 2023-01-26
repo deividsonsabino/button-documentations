@@ -42,7 +42,7 @@ export const Table = styled.div`
 `;
 
 export const Side = styled.div`
-border-radius: 8px;
+border-radius: 8px 0px 0px 8px;
 box-sizing: border-box;
 
 display: flex;
@@ -65,9 +65,17 @@ background: #1C162C;
 export const Header = styled.div`
   width: 100%;
   display: flex;
+  flex-direction: column;
   justify-content: space-around;
   align-items: center;
   background: #1C162C;
+`;
+
+export const Titles = styled.div`
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
 `;
 
 export const Buttons = styled.div``;

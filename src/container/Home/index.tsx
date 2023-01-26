@@ -1,6 +1,6 @@
 import React from 'react'
 import Button from '../../components/Button'
-import { Container, Title, Description, Table, Side, Header, Buttons, TableContent } from './styles'
+import { Container, Title, Description, Table, Side, Header, Buttons, TableContent, Titles } from './styles'
 
 export default function Home() {
 
@@ -85,14 +85,14 @@ export default function Home() {
                         <p>MOVABLE</p>
                     </div>
                 </Side>
-                <div>
-                    <Header>
+                <Header>
+                    <Titles>
                         <p>TITLE</p>
                         <p>TITLE</p>
                         <p>TITLE</p>
                         <p>TITLE</p>
                         <p>TITLE</p>
-                    </Header>
+                    </Titles>
                     <TableContent>
                         <Buttons>
                             <p>1</p>
@@ -127,7 +127,7 @@ export default function Home() {
                             <p>6</p>
                         </Buttons>
                     </TableContent>
-                </div>
+                </Header>
             </Table>
 
         </Container>
