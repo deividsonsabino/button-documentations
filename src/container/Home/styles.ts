@@ -21,6 +21,7 @@ export const Title = styled.h1`
 
 export const Description = styled.p`
   margin-top: 8px;
+  margin-bottom: 68px;
   width: 808px;
   height: 46px;
 
@@ -63,6 +64,8 @@ background: #1C162C;
 `;
 
 export const Header = styled.div`
+  border-radius: 0px 8px 8px 0px;
+
   width: 100%;
   display: flex;
   flex-direction: column;
@@ -76,8 +79,15 @@ export const Titles = styled.div`
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 25.5px;
   p {
-    text-align: center
+    text-align: center;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 11px;
+    line-height: 13px;
+    color: #FFFFFF;
     }
 `;
 
@@ -90,6 +100,9 @@ export const Buttons = styled.div`
 `;
 
 export const TableContent = styled.div`
+  border: solid 6px #1C162C;
+  height: 100%;
+  background-color: #0b0911;
   width: 100%;
   display: flex;
 `;

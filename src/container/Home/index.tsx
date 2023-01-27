@@ -87,11 +87,10 @@ export default function Home() {
                 </Side>
                 <Header>
                     <Titles>
-                        <p>TITLE</p>
-                        <p>TITLE</p>
-                        <p>TITLE</p>
-                        <p>TITLE</p>
-                        <p>TITLE</p>
+                        <p>BOTÃO PRIMÁRIO</p>
+                        <p>BOTÃO SECUNDÁRIO</p>
+                        <p>BOTÃO TERCIÁRIO</p>
+                        <p>CURSOR</p>
                     </Titles>
                     <TableContent>
                         <Buttons>
