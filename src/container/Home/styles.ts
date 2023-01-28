@@ -1,10 +1,16 @@
 import styled from "styled-components";
 
-export const Container = styled.div``;
+export const Container = styled.div`
+    max-width: 1140px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+`;
 
 export const Title = styled.h1`
-  width: 233px;
-  height: 32px;
+
 
   font-family: "Inter";
   font-style: normal;
@@ -22,13 +28,12 @@ export const Title = styled.h1`
 export const Description = styled.p`
   margin-top: 8px;
   margin-bottom: 68px;
-  width: 808px;
-  height: 46px;
+
 
   font-family: "Roboto";
   font-style: normal;
   font-weight: 400;
-  font-size: 19.2059px;
+  font-size: 19px;
   line-height: 23px;
 
   color: #f1f1f1;
@@ -39,6 +44,7 @@ export const Description = styled.p`
 `;
 
 export const Table = styled.div`
+  width: 100%;
   display: flex;
 `;
 
@@ -96,7 +102,10 @@ export const Buttons = styled.div`
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  button {
+    padding: 22px;
+
+  }
 `;
 
 export const TableContent = styled.div`

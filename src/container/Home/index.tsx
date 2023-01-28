@@ -94,44 +94,44 @@ export default function Home() {
                     </Titles>
                     <TableContent>
                         <Buttons>
-                            <p>1</p>
-                            <p>2</p>
-                            <p>3</p>
-                            <p>4</p>
-                            <p>5</p>
-                            <p>6</p>
+                            <button>1</button>
+                            <button>2</button>
+                            <button>3</button>
+                            <button>4</button>
+                            <button>5</button>
+                            <button>6</button>
                         </Buttons>
                         <Buttons>
-                            <p>1</p>
-                            <p>2</p>
-                            <p>3</p>
-                            <p>4</p>
-                            <p>5</p>
-                            <p>6</p>
+                            <button>1</button>
+                            <button>2</button>
+                            <button>3</button>
+                            <button>4</button>
+                            <button>5</button>
+                            <button>6</button>
                         </Buttons>
                         <Buttons>
-                            <p>1</p>
-                            <p>2</p>
-                            <p>3</p>
-                            <p>4</p>
-                            <p>5</p>
-                            <p>6</p>
+                            <button>1</button>
+                            <button>2</button>
+                            <button>3</button>
+                            <button>4</button>
+                            <button>5</button>
+                            <button>6</button>
                         </Buttons>
                         <Buttons>
-                            <p>1</p>
-                            <p>2</p>
-                            <p>3</p>
-                            <p>4</p>
-                            <p>5</p>
-                            <p>6</p>
+                            <button>1</button>
+                            <button>2</button>
+                            <button>3</button>
+                            <button>4</button>
+                            <button>5</button>
+                            <button>6</button>
                         </Buttons>
                         <Buttons>
-                            <p>1</p>
-                            <p>2</p>
-                            <p>3</p>
-                            <p>4</p>
-                            <p>5</p>
-                            <p>6</p>
+                            <button>1</button>
+                            <button>2</button>
+                            <button>3</button>
+                            <button>4</button>
+                            <button>5</button>
+                            <button>6</button>
                         </Buttons>
                     </TableContent>
                 </Header>
